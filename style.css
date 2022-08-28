@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display:flex;
+    list-style-type:none;
+    height:65px;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+nav ul li{
+    padding:0px 12px;
+}
+.brand img{
+    padding:0px 8px;
+    width:48px;
+}
+.brand{
+    align-items: center;
+    display: flex;
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+.container{
+    min-height:72vh;
+    background-color: black;
+    margin: 23px auto;
+    color: white;
+    padding:34px;
+    width: 80%;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 12px;
+    background-image: url('bg.jpg');
+}
+.bottom{
+    bottom:0;
+    background-color: black;
+    position: sticky;
+    color:white;
+    height:130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.icons{
+    margin-top:14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressbar{
+    width:80vw;
+    cursor:pointer;
+}
+.songItem{
+    background-color: white;
+    color: black;
+    height:50px;
+    display:flex;
+    width: 60%;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 54px;
+
+}
+.timestamp{
+    margin:0 23px;
+}
+.timestamp i{
+    cursor: pointer ;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition:opacity 0.4s ease-in;
+    margin-right: 10px;
+}
